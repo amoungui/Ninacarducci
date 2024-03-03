@@ -1,0 +1,13 @@
+{
+    "name": "mon-projet",
+    "version": "1.0.0",
+    "description": "Mon projet HTML/CSS/JavaScript avec jQuery",
+    "scripts": {
+      "build": "gulp build",
+      "lint": "eslint src/**/*.js"
+    },
+    "dependencies": {
+      "jquery": "^3.6.0"
+    }
+  }
+  

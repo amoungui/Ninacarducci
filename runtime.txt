@@ -1,0 +1,1 @@
+# Projet HTML/CSS/JavaScript sans dépendances spécifiques
