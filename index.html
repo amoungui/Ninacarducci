@@ -19,7 +19,23 @@
 	<script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0-beta/jquery.min.js"></script>
 	<script defer src="./assets/maugallery.js"></script>
 	<script defer src="./assets/scripts.js"></script>	
-	<script defer src="assets/business-schema.js"></script>
+	<script type="application/ld+json">
+		{
+		  "@context": "https://schema.org",
+		  "@type": "LocalBusiness",
+		  "name": "Nina Carducci - Photographe",
+		  "image": "./assets/images/nina.png",
+		  "address": {
+			"@type": "PostalAddress",
+			"streetAddress": "Avenue Alsace Lauraine",
+			"addressLocality": "Bordeaux",
+			"addressRegion": "Île-de-France",
+			"postalCode": "33200 Bordeaux",
+			"addressCountry": "France"
+		  },
+		  "telephone": "(+33) 0556677889"
+		}
+	</script>
 </head>
 <body>
 <div class="top-header">
