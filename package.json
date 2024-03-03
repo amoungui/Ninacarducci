@@ -3,6 +3,7 @@
     "version": "1.0.0",
     "description": "Mon projet HTML/CSS/JavaScript avec jQuery",
     "scripts": {
+      "start": "node server.js",
       "build": "gulp build",
       "lint": "eslint src/**/*.js"
     },
