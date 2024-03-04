@@ -51,11 +51,6 @@ body {
 	position: relative;
 }
 
-#ryoji {
-	width: 898.67px;
-	height: 414.91px;
-}
-
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
