@@ -51,6 +51,11 @@ body {
 	position: relative;
 }
 
+#ryoji {
+	width: 922.67px;
+	height: 426.3px;
+}
+
 .picture.left::before {
 	content: ' ';
 	background-color: #E5975F;
@@ -322,6 +327,10 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 650px) {
+	#ryoji {
+		width: 375.33px;
+		height: 173.23px;
+	}
 	.top-header {
 		flex-direction: column;
 		padding-inline: 0;
