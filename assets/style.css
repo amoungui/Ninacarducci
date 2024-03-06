@@ -52,8 +52,7 @@ body {
 }
 
 #ryoji {
-	width: 1350px;
-	height: 415px;
+	object-fit: cover;
 }
 
 .picture.left::before {
@@ -75,6 +74,7 @@ body {
 
 .picture img {
 	width: 100%;
+	object-fit: cover;
 
 }
 #about-me {
